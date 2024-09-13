@@ -1,0 +1,40 @@
+.Header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+
+  .nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    li{
+      color: #505F98;
+      list-style: none;
+    }
+  }
+  h1{
+    font-size: 26px;
+    color: #37447E;
+    line-height: 38;
+    font-weight: 800;
+  }
+  .callToAction{
+    padding: 4px 56px;
+    border-radius: 2px;
+    background-color: #111B47;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 770px){
+  .Header{
+
+  }
+}
